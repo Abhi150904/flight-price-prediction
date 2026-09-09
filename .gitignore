@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Local scratch
+.tmp/
+
+# Large or generated data
+data/raw/
+data/interim/
+data/processed/
+
+# Generated reports and figures
+reports/*
+!reports/README.md
+
+# Binary model artifacts
+models/*.joblib
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

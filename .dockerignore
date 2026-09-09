@@ -1,0 +1,18 @@
+.git
+.tmp
+__pycache__
+*.pyc
+.pytest_cache
+.venv
+venv
+env
+
+# Large local data should not be baked into the API image.
+data/raw
+data/interim
+data/processed
+reports
+
+# Keep model artifacts; the API loads models/final_price_artifacts.joblib.
+!models/
+!models/final_price_artifacts.joblib
